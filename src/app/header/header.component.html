@@ -4,21 +4,21 @@
     <!-- Logo -->
     <a id="logo" routerLink="/">
       <div class="material-icons">directions_run</div>
-      <div id="logoText">Developer Roadmaps</div>
+      <div id="logoText">Sample</div>
     </a>
     <!-- Desktop Menu -->
     <div id="hamburger" class="material-icons" (click)="clickMenu()">menu</div>
     <div id="menuDesktop">
-      <a routerLink="/frontend" routerLinkActive="router-link-active">Frontend</a>
-      <a routerLink="/backend" routerLinkActive="router-link-active">Backend</a>
-      <a routerLink="/about" routerLinkActive="router-link-active">About</a>
+      <a routerLink="/page1" routerLinkActive="router-link-active">Page 1</a>
+      <a routerLink="/page2" routerLinkActive="router-link-active">Page 2</a>
+      <a routerLink="/page3" routerLinkActive="router-link-active">Page 3</a>
     </div>
   </div>
   <!-- Mobile Menu -->
   <div *ngIf="!showMobileMenu" id="menuMobile" [ngStyle]="{'background-color': showMobileMenu ? '#242224' : 'none'}">
-    <a routerLink="/frontend" routerLinkActive="router-link-active"><span class="material-icons">dashboard</span>Frontend</a>
-    <a routerLink="/backend" routerLinkActive="router-link-active"><span
-      class="material-icons">settings_input_component</span>Backend</a>
-    <a routerLink="/about" routerLinkActive="router-link-active"><span class="material-icons">person</span>About</a>
+    <a routerLink="/page1" routerLinkActive="router-link-active"><span class="material-icons">dashboard</span>Page 1</a>
+    <a routerLink="/page2" routerLinkActive="router-link-active"><span
+      class="material-icons">settings_input_component</span>Page 2</a>
+    <a routerLink="/page3" routerLinkActive="router-link-active"><span class="material-icons">person</span>Page 3</a>
   </div>
 </div>
