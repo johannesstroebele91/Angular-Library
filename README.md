@@ -1,14 +1,8 @@
-# Developer Roadmaps
-This website is a step by step guide to becoming a modern developer. It is based on the famous roadmaps from kamranahmedse and the GitHub Community. We wish you all the best for your learning and be sure to write us if your find anything that we could improve!
+# Angular Knowledge
+Collection of my [Angular](https://angular.io/) knowledge to help me get better at TypeScript and Angular.
 
 ## Learnings
-* Improving knowledge of HTML/CSS, TypeScript, Angular, and Angular Material
-* Becoming a better overall developer
-* Version control with git
-
-## Important
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
-Development server: Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-Build: Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-Running unit tests: Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-Running end-to-end tests: Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* Routing
+* Components
+* Modules
+* Header (top navigation)
